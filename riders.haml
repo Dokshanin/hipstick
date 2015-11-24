@@ -1,0 +1,120 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+		%title HipStick
+		%link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/hipgrid.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+
+	%body{:style => 'margin: 0;'}
+		.item-cover{:style => 'background: url(https://habrastorage.org/files/46d/bd0/ce4/46dbd0ce411c465e8e17ad78cfe2bfbf.jpg) no-repeat; background-size: cover; background-position: center center;'}
+			.ic-color
+				.container12
+					.row
+						.column12
+							/ .login
+							/ 	%a{:href => '/'} Авторизоваться
+							.profile
+								.avatar
+									%img{:src => 'https://pp.vk.me/c622526/v622526429/382f9/6iloo-YbSlI.jpg'}
+								.name
+									%a{:href => '/'} Александр Докшанин
+					.row
+						.column12
+							.row
+								.logo-stick
+									%img{:src => 'https://habrastorage.org/files/c97/32d/dfb/c9732ddfb08f4011b471219dc042df14.png'}
+							.row
+								.brend-about
+									/ .title
+									/ 	%a{:href => '/'} Riders
+									.text
+										Интернет-издание про технологии и тренды
+					.row
+						.item-info 
+							.column4
+								Цена всех: 1500 р.
+							.column4
+								Стикеров: 8
+							.column4
+								Продано: 83 шт.
+
+		.page
+			.container12
+				.row
+					.column12
+						.title
+							Коллекция "Riders"
+				.row
+					.column10.prefix1
+						.content
+							Мы нацелены на долгосрочное сотрудничество, поэтому разработали специальную программу которой придерживаемся. Если вы популярный проект или личность, вы можете подать заявку на размещение ваших стикеров у нас на площадке.
+							%br
+							%br
+							%img{:src => 'https://habrastorage.org/files/fae/682/00b/fae68200b35a46c58bc0348671c9ac17.jpg'}
+				.row
+					.column12
+						.title
+							Коллекция
+				.row
+					.column4
+						.buy-box
+							%img{:src => 'https://pp.vk.me/c622526/v622526024/3fa7b/aKlm4tFJG4g.jpg'}
+							%a{:href => '/'}
+							.buy-stick
+								%a{:href => '/'} Купить за 100 р.
+					.column4
+						.buy-box
+							%img{:src => 'https://pp.vk.me/c622526/v622526840/3d2e9/uaX0YhdrviI.jpg'}
+							%a{:href => '/'}
+							.buy-stick
+								%a{:href => '/'} Купить за 150 р.
+					.column4
+						.buy-box
+							%img{:src => 'https://pp.vk.me/c622526/v622526965/37193/DRjQ5Rub-5Q.jpg'}
+							%a{:href => '/'}
+							.buy-stick
+								%a{:href => '/'} Купить всю коллекцию
+				.row
+					.column12
+						.title
+							Подписаться на коллекцию
+				.row
+					.partner
+						.column3.prefix1
+							.form-help
+								Подписавшись на обновления коллекции, вы будете получать уведомления об изменении или добавлении новых стикеров.
+						.column7
+							%form
+								%input{:type => 'text', :placeholder => 'E-mail'}
+								/ %textarea{:type => 'text', :placeholder => 'Комментарий к заказу'}
+								%input{:type => 'checkbox'} Согласен с условиями рассылки
+								%input{:type => 'submit', :value => 'Подписаться'}
+		.footer
+			.container12
+				.row
+					.column12
+						.pay-list
+							%a{:href => '/', :class => 'visa', :target => '_blank'}
+								%img{:src => 'img/visa-hipstick.png'}
+							%a{:href => '/', :class => 'mastercard', :target => '_blank'}
+								%img{:src => 'img/mc-hipstick.png'}
+							%a{:href => '/', :class => 'liqpay', :target => '_blank'}
+								%img{:src => 'img/liqpay.png'}
+							%a{:href => '/', :class => 'yamoney', :target => '_blank'}
+								%img{:src => 'img/logo-yandex-money.png'}
+							%a{:href => '/', :class => 'webmoney', :target => '_blank'}
+								%img{:src => 'img/wmlogo_vector_blue.png'}
+				.row
+					.column12
+						.navigation-footer
+							%a{:href => '/'} Главная
+							%a{:href => '/'} О проекте
+							%a{:href => '/'} Faq
+							%a{:href => '/'} Оплата
+							%a{:href => '/'} Партнерская программа
+				.row
+					.column12
+						.copyright
+							2015 г. HipStick Russia, Kaliningrad
+

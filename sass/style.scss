@@ -1,0 +1,704 @@
+.header {
+	background-color: #F9F9F9;
+	padding: 0 0 80px;
+	.profile {
+		margin: 15px 0 90px;
+		.avatar {
+			background-color: #f0f0f0;
+			border-radius: 15px;
+			width: 30px;
+			height: 30px;
+			float: left;
+			img { border-radius: 15px; }
+		}
+		.name {
+			font-family: 'Journal Sans New', sans-serif;
+			float: left;
+			margin: 5px 10px;
+			a {
+				color: black;
+				text-decoration: none;
+				font-size: 14px;
+				opacity: 0.7;
+				-moz-osx-font-smoothing: grayscale;
+	    		-webkit-font-smoothing: antialiased;
+	    		-moz-osx-font-smoothing: grayscale;
+	    		text-rendering: optimizelegibility;
+	    	}
+		}
+	}
+	.logo {
+		width: 239px;
+		height: 78px;
+		margin: 0 auto;
+		background: url('https://habrastorage.org/files/93e/919/cf1/93e919cf137647b498b9d6679cf19c7e.png') no-repeat;
+	}
+	.navigation-left {
+		margin-top: 20px;
+		font-family: 'Journal Sans New', sans-serif;
+		a {
+			color: #939393;
+			text-decoration: none;
+			margin-right: 22px;
+			font-size: 18px;
+			-moz-osx-font-smoothing: grayscale;
+    		-webkit-font-smoothing: antialiased;
+    		-moz-osx-font-smoothing: grayscale;
+    		text-rendering: optimizelegibility;
+			&:hover { color: #282828; }
+		}
+	}
+	.navigation-right {
+		margin-top: 20px;
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: right;
+		a {
+			color: #939393;
+			text-decoration: none;
+			margin-right: 22px;
+			font-size: 18px;
+			-moz-osx-font-smoothing: grayscale;
+    		-webkit-font-smoothing: antialiased;
+    		-moz-osx-font-smoothing: grayscale;
+    		text-rendering: optimizelegibility;
+			&:hover { color: #282828; }
+		}
+	}
+}
+.header-index {
+	height: 300px;
+	// padding: 100px 0 80px;
+	.index-h-color {
+		background-color: rgba(0,0,0,0.5);
+		height: 100%;
+		// .login {}
+		.profile {
+			margin-top: 15px;
+			.avatar {
+				background-color: #f0f0f0;
+				border-radius: 15px;
+				width: 30px;
+				height: 30px;
+				float: left;
+				img { border-radius: 15px; }
+			}
+			.name {
+				font-family: 'Journal Sans New', sans-serif;
+				float: left;
+				margin: 5px 10px;
+				a {
+					color: white;
+					text-decoration: none;
+					font-size: 14px;
+					opacity: 0.7;
+					-moz-osx-font-smoothing: grayscale;
+		    		-webkit-font-smoothing: antialiased;
+		    		-moz-osx-font-smoothing: grayscale;
+		    		text-rendering: optimizelegibility;
+		    	}
+			}
+		}
+		.setting {
+			float: left;
+			a {
+				margin-top: 8px;
+				opacity: .8;
+				display: inline-block;
+			}
+		}
+		.add-sticker {
+			float: left;
+			a {
+				margin: 8px 10px 0;
+				opacity: .8;
+				display: inline-block;
+			}
+		}
+		.logo {
+			width: 239px;
+			height: 78px;
+			margin: 60px auto 0;
+			background: url('https://habrastorage.org/files/93e/919/cf1/93e919cf137647b498b9d6679cf19c7e.png') no-repeat;
+		}
+		.navigation-left {
+			margin-top: 80px; 
+			font-family: 'Journal Sans New', sans-serif;
+			a {
+				color: white;
+				text-decoration: none;
+				margin-right: 22px;
+				font-size: 18px;
+				-moz-osx-font-smoothing: grayscale;
+	    		-webkit-font-smoothing: antialiased;
+	    		-moz-osx-font-smoothing: grayscale;
+	    		text-rendering: optimizelegibility;
+				// &:hover { color: #282828; }
+			}
+		}
+		.navigation-right {
+			margin-top: 80px; 
+			font-family: 'Journal Sans New', sans-serif;
+			text-align: right;
+			a {
+				color: white;
+				text-decoration: none;
+				margin-right: 22px;
+				font-size: 18px;
+				-moz-osx-font-smoothing: grayscale;
+	    		-webkit-font-smoothing: antialiased;
+	    		-moz-osx-font-smoothing: grayscale;
+	    		text-rendering: optimizelegibility;
+				// &:hover { color: #282828; }
+			}
+		}
+		.cover-author {
+			font-family: 'Journal Sans New', sans-serif;
+			text-align: left;
+			float: left;
+			a {
+				color: white;
+				text-decoration: none;
+				font-size: 14px;
+				-moz-osx-font-smoothing: grayscale;
+	    		-webkit-font-smoothing: antialiased;
+	    		-moz-osx-font-smoothing: grayscale;
+	    		text-rendering: optimizelegibility;
+	    		opacity: 0.2;
+	    		margin-top: 30px;
+	    		&:hover { border-bottom: 1px solid white; }
+			}
+		}
+	}
+}
+.item-cover {
+	height: 400px;
+	.ic-color {
+		background-color: rgba(0,0,0,0.5);
+		height: 100%;
+		.profile {
+			margin-top: 15px;
+			.avatar {
+				background-color: #f0f0f0;
+				border-radius: 15px;
+				width: 30px;
+				height: 30px;
+				float: left;
+				img { border-radius: 15px; }
+			}
+			.name {
+				font-family: 'Journal Sans New', sans-serif;
+				float: left;
+				margin: 5px 10px;
+				a {
+					color: white;
+					text-decoration: none;
+					font-size: 14px;
+					opacity: 0.7;
+					-moz-osx-font-smoothing: grayscale;
+		    		-webkit-font-smoothing: antialiased;
+		    		-moz-osx-font-smoothing: grayscale;
+		    		text-rendering: optimizelegibility;
+		    	}
+			}
+		}
+		.logo-stick { 
+			text-align: center; 
+			margin-top: 20px;
+			img { width: 150px; }
+		}
+		.brend-about {
+			.title { 
+				font-family: 'Journal Sans New', sans-serif;
+				font-weight: 700;
+				text-align: center;
+				a {
+					color: white;
+					text-decoration: none;
+					border-bottom: 1px solid white;
+					font-size: 22px;
+					-moz-osx-font-smoothing: grayscale;
+		    		-webkit-font-smoothing: antialiased;
+		    		-moz-osx-font-smoothing: grayscale;
+		    		text-rendering: optimizelegibility;
+					&:hover { border-bottom: none; }
+				}
+			}
+			.text {
+				margin-top: 10px;
+				width: 600px;
+				margin: 0 auto;
+				font-family: 'Journal Sans New', sans-serif;
+				color: white;
+				text-align: center;
+				font-size: 18px;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+			}
+		}
+		.item-info {
+			font-family: 'Journal Sans New', sans-serif;
+			color: white;
+			text-align: center;
+			font-size: 22px;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+	    	opacity: 0.4;
+		}
+	}
+}
+.about {
+	background-color: #282828;
+	color: #B08D5C;
+	font-family: 'Journal Sans New', sans-serif;
+	font-weight:  700;
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 0 30px;
+	letter-spacing: -0.4px;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    .sales-info {
+    	font-family: 'Journal Sans New', sans-serif;
+    	font-size: 18px;
+    	color: white;
+    	font-weight: 300;
+		text-align: center;
+		-moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    text-rendering: optimizelegibility;
+	    opacity: 0.5;
+	    letter-spacing: 0;
+    }
+}
+.shop {
+	margin: 50px 0;
+	.collections {
+		font-family: 'Journal Sans New', sans-serif;
+		font-weight: 700;
+    	font-size: 22px;
+		-moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    text-rendering: optimizelegibility;
+	}
+	.social-link {
+		font-family: 'Journal Sans New', sans-serif;
+    	font-size: 22px;
+		-moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    text-rendering: optimizelegibility;
+	}
+	.stick-list {
+		.stick-item {
+			height: 450px;
+			margin-bottom: 40px;
+			position: relative;
+			a {
+				background-color: rgba(0,0,0,0.5);
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				bottom: 0px;
+				left: 0px;
+				z-index: 30;
+				&:hover { background-color: rgba(0,0,0,0.6); }
+			}
+			.buy {
+				// background-color: rgba(0,0,0,0.5);
+				position: absolute;
+				height: 450px;
+				width: 100%;
+				&:hover { background-color: rgba(0,0,0,0.2); }
+				.logo-item {
+					margin: 100px auto 0;
+					text-align: center;
+					width: 220px;
+					position: relative;
+					z-index: 31;
+					img { width: 150px; }
+				}
+				.read {
+					font-family: 'Journal Sans New', sans-serif;
+					font-size: 22px;
+					-moz-osx-font-smoothing: grayscale;
+			    	-webkit-font-smoothing: antialiased;
+			    	-moz-osx-font-smoothing: grayscale;
+			    	text-rendering: optimizelegibility;
+					text-align: center;
+					position: relative;
+					margin-top: 100px;
+					a { color: white; text-decoration: none; }
+				}
+			}
+			.meta-wrap {
+				position: absolute;
+				top: 8px;
+				left: 8px;
+				z-index: 200;
+				opacity: 0;
+				-webkit-transition: opacity 0.1s; -moz-transition: opacity 0.1s; -ms-transition: opacity 0.1s; -o-transition: opacity 0.1s; transition: opacity 0.1s;
+				.meta-project-about {
+					color: white;
+				}
+			}
+		}
+	}
+	.offer-coll {
+		font-family: 'Journal Sans New', sans-serif;
+		a {
+			font-size: 12px;
+			color: #A19999;
+			border-bottom: 1px solid #ccc;
+			text-decoration: none;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+	    	&:hover { color: #B08D5C; border-bottom: 1px solid #B08D5C; }
+		}
+	}
+	.browse-all {
+		font-family: 'Journal Sans New', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		a {
+			// background-color: #F4F4F4;
+			background-color: #3499E0;
+			text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+			letter-spacing: .2px;
+			width: 100%;
+			padding: 18px 0;
+			font-size: 18px;
+			// color: #777777;
+			color: white;
+			text-decoration: none;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+	    	display: block;
+	    	&:hover {
+	    		// background-color: #E7E7E7;
+	    		background-color: #1E7FC3;
+	    	}
+	    	&:active { text-shadow: none; }
+		}
+	}
+}
+.page {
+	padding: 50px 0px 100px;
+	// box-shadow: 0px -10px 5px #F5F5F5;
+	.title {
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #282828;
+		font-weight: 700;
+		letter-spacing: 0.3px;
+		-moz-osx-font-smoothing: grayscale;
+    	-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+    	text-rendering: optimizelegibility;
+	}
+	.content {
+		font-family: 'Journal Sans New', sans-serif;
+		font-size: 18px;
+		color: #282828;
+		-moz-osx-font-smoothing: grayscale;
+    	-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+    	text-rendering: optimizelegibility;
+	}
+	.del {
+		margin-top: 50px;
+		.convert { text-align: center; }
+	}
+	.faq {
+		h3 {
+			color: #B08D5C;
+			text-decoration: underline;
+			cursor: pointer;
+			border: none;
+			&:focus { border: none; }
+		}
+		.ui-selectable-helper { border: none; }
+	}
+	.partner {
+		margin-top: 20px;
+		.form-help {
+			font-family: Georgia, sans-serif;
+			font-size: 14px;
+			font-style: italic;
+			color: #939393;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+		}
+		form {
+			font-family: 'Journal Sans New', sans-serif;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+	    	label {
+	    		margin-bottom: 15px;
+	    	}
+			input[type=text] {
+				width: 100%;
+				height: 40px;
+				font-size: 18px;
+				font-family: 'Journal Sans New', sans-serif;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+		    	border: 1px solid #ddd;
+		    	padding: 0 5px;
+		    	float: left;
+		    	margin-bottom: 15px;
+		    	&:hover { border: 1px solid #ccc; }
+		    	&:focus {
+		    		border: 1px solid #D2B48C;
+		    	}
+			}
+			input[type=submit] {
+				width: 102%;
+				background-color: #3499E0;
+				text-align: center;
+				cursor: pointer;
+				color: white;
+				font-family: 'Journal Sans New', sans-serif;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+		    	font-weight: 700;
+		    	padding: 13px 0 15px;
+		    	font-size: 20px;
+		    	border: none;
+		    	text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+		    	letter-spacing: .2px;
+		    	&:hover { background-color: #1E7FC3; }
+		    	&:active { text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1); }
+			}
+			input[type=checkbox] {
+				float: left;
+				text-align: left;
+				margin-bottom: 20px;
+				font-size: 18px;
+				font-family: 'Journal Sans New', sans-serif;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+			}
+			input[type=file] {
+				margin: 10px 0 15px;
+			}
+			textarea {
+				width: 100%;
+				height: 100px;
+				font-size: 18px;
+				font-family: 'Journal Sans New', sans-serif;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+		    	border: 1px solid #ddd;
+		    	padding: 0 5px;
+		    	float: left;
+		    	margin-bottom: 15px;
+		    	resize: none;
+		    	&:hover { border: 1px solid #ccc; }
+		    	&:focus {
+		    		border: 1px solid #D2B48C;
+		    	}
+			}
+		}
+		.help {
+			font-family: 'Journal Sans New', sans-serif;
+			margin-top: 15px;
+			line-height: 16px;
+			a {
+				font-size: 14px;
+				color: #939393;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+		    	&:first-letter { color: red; }
+			}
+		}
+	}
+	// Менеджера и пользователи могут добавлять новые стикера
+	.m-u-new-sticker {
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: center;
+		a {
+			display: block;
+			padding: 86px 50px;
+			background-color: #f0f0f0;
+			color: #939393;
+			font-size: 18px;
+			text-decoration: none;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+	    	&:hover { background-color: #ddd; }
+
+		}
+	}
+	// О стикере
+	.about-sticker {
+		.name {
+			font-family: 'Journal Sans New', sans-serif;
+			font-weight: 700;
+			text-align: center;
+			margin-top: 5px;
+			a {
+				font-size: 18px;
+				color: black;
+				text-decoration: none;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+			}
+		}
+	}
+	// Редактирование стикера
+	.edit {
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: center;
+		a {
+			font-size: 16px;
+			color: #2B296F;
+			text-decoration: none;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+		}
+	}
+	// Профиль стикера - аватарка, редактировать, удалить
+	.sticker-p-rigth {
+		.name {
+			font-family: 'Journal Sans New', sans-serif;
+			font-weight: 700;
+			font-size: 3em;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+		}
+		.description {
+			font-family: 'Journal Sans New', sans-serif;
+			font-size: 18px;
+			color: #939393;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+		}
+	}
+	// Комментарии к стикеру
+	.comments {
+		.comments-title {
+			font-family: 'Journal Sans New', sans-serif;
+			font-size: 24px;
+			font-weight: 700;
+			-moz-osx-font-smoothing: grayscale;
+	    	-webkit-font-smoothing: antialiased;
+	    	-moz-osx-font-smoothing: grayscale;
+	    	text-rendering: optimizelegibility;
+		}
+	}
+	.buy-box {
+		position: relative;
+		a {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			z-index: 30;
+		}
+		.buy-stick {
+			position: absolute;
+			top: 250px;
+			background-color: rgba(0,0,0,0.5);
+			width: 300px;
+			height: 50px;
+			cursor: pointer;
+			text-align: center;
+			&:hover { background-color: rgba(0,0,0,0.7); }
+			a {
+				color: white;
+				font-size: 18px;
+				font-family: 'Journal Sans New', sans-serif;
+				-moz-osx-font-smoothing: grayscale;
+		    	-webkit-font-smoothing: antialiased;
+		    	-moz-osx-font-smoothing: grayscale;
+		    	text-rendering: optimizelegibility;
+		    	text-decoration: none;
+		    	margin-top: 14px;
+			}
+		}
+	}
+}
+.footer {
+	.pay-list {
+		text-align: center;
+		a { text-decoration: none; margin: 0 10px; }
+		.visa {
+			img { width: 50px; margin-bottom: 5px; }	
+		}
+		.mastercard {
+			img { width: 50px; }	
+		}
+		.liqpay {
+			img { height: 27px; }	
+		}
+		.yamoney {
+			img { width: 70px; }	
+		}
+		.webmoney {
+			img { width: 100px; }	
+		}
+	}
+	.navigation-footer {
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: center;
+		a {
+			color: #9E9EA6;
+			text-decoration: none;
+			margin: 0 15px;
+			-moz-osx-font-smoothing: grayscale;
+    		-webkit-font-smoothing: antialiased;
+    		-moz-osx-font-smoothing: grayscale;
+    		text-rendering: optimizelegibility;
+			&:hover { color: black; }
+		}
+	}
+	.copyright {
+		font-family: 'Journal Sans New', sans-serif;
+		text-align: center;
+		font-size: 13px;
+		letter-spacing: 0.3px;
+		color: #9E9EA6;
+		-moz-osx-font-smoothing: grayscale;
+    	-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+    	text-rendering: optimizelegibility;
+	}
+}

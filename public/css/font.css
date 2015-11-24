@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Journal Sans New';
+  src: url('./fonts/JournalSansNew.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/JournalSansNew.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/JournalSansNew.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/JournalSansNew.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/JournalSansNew.svg#7802ed480f5486f24389a34f368fe0c5') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Journal Sans New';
+  src: url('./fonts/JournalSansNew-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/JournalSansNew-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/JournalSansNew-Bold.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/JournalSansNew-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/JournalSansNew-Bold.svg#0ac56e4c38ff9012a45ac41230629ae8') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Journal Sans New';
+  src: url('./fonts/JournalSansNew-Display.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/JournalSansNew-Display.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/JournalSansNew-Display.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/JournalSansNew-Display.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/JournalSansNew-Display.svg#c34edb5422bf3891786fb9174aaf032c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

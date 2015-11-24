@@ -1,0 +1,64 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+		%title HipStick
+		%link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/hipgrid.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+
+	%body{:style => 'margin: 0;'}
+		.header
+			.container12
+				.row
+					.column4
+						.navigation-left
+							%a{:href => '/'} Главная
+							%a{:href => '/'} Подписка
+							%a{:href => '/'} Доставка
+					.column4
+						.logo
+					.column4
+						.navigation-right
+							%a{:href => '/'} Отзывы
+							%a{:href => '/'} Сотрудничество
+		.page
+			.container12
+				.row
+					.column12
+						.title
+							Доставка
+				.row
+					.column10.prefix1
+						.content
+							Мы нацелены на долгосрочное сотрудничество, поэтому разработали специальную программу которой придерживаемся. Если вы популярный проект или личность, вы можете подать заявку на размещение ваших стикеров у нас на площадке.
+							.del
+								.convert
+									%img{:src => 'img/hipstick-convert.png'}
+
+		.footer
+			.container12
+				.row
+					.column12
+						.pay-list
+							%a{:href => '/', :class => 'visa', :target => '_blank'}
+								%img{:src => 'img/visa-hipstick.png'}
+							%a{:href => '/', :class => 'mastercard', :target => '_blank'}
+								%img{:src => 'img/mc-hipstick.png'}
+							%a{:href => '/', :class => 'maestro', :target => '_blank'}
+								%img{:src => 'img/maestro-hipstick.png'}
+							%a{:href => '/', :class => 'yamoney', :target => '_blank'}
+								%img{:src => 'img/logo-yandex-money.png'}
+							%a{:href => '/', :class => 'webmoney', :target => '_blank'}
+								%img{:src => 'img/wmlogo_vector_blue.png'}
+				.row
+					.column12
+						.navigation-footer
+							%a{:href => '/'} О проекте
+							%a{:href => '/'} Faq
+							%a{:href => '/'} Оплата
+							%a{:href => '/'} Партнерская программа
+				.row
+					.column12
+						.copyright
+							2015 г. HipStick Russia, Kaliningrad
+

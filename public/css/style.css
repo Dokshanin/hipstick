@@ -1,0 +1,1023 @@
+.header
+{
+    padding: 0 0 80px; 
+
+    background-color: #f9f9f9;
+}
+.header .profile
+{
+    margin: 15px 0 90px;
+}
+.header .profile .avatar
+{
+    float: left; 
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 15px;
+    background-color: #f0f0f0;
+}
+.header .profile .avatar img
+{
+    border-radius: 15px;
+}
+.header .profile .name
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    float: left;
+
+    margin: 5px 10px;
+}
+.header .profile .name a
+{
+    font-size: 14px;
+
+    text-decoration: none;
+
+    opacity: .7;
+    color: black;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header .logo
+{
+    width: 239px;
+    height: 78px;
+    margin: 0 auto;
+
+    background: url('https://habrastorage.org/files/93e/919/cf1/93e919cf137647b498b9d6679cf19c7e.png') no-repeat;
+}
+.header .navigation-left
+{
+    font-family: 'Journal Sans New', sans-serif; 
+
+    margin-top: 20px;
+}
+.header .navigation-left a
+{
+    font-size: 18px;
+
+    margin-right: 22px;
+
+    text-decoration: none;
+
+    color: #939393;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header .navigation-left a:hover
+{
+    color: #282828;
+}
+.header .navigation-right
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    margin-top: 20px;
+
+    text-align: right;
+}
+.header .navigation-right a
+{
+    font-size: 18px;
+
+    margin-right: 22px;
+
+    text-decoration: none;
+
+    color: #939393;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header .navigation-right a:hover
+{
+    color: #282828;
+}
+
+.header-index
+{
+    height: 300px;
+}
+.header-index .index-h-color
+{
+    height: 100%; 
+
+    background-color: rgba(0, 0, 0, .5);
+}
+.header-index .index-h-color .profile
+{
+    margin-top: 15px;
+}
+.header-index .index-h-color .profile .avatar
+{
+    float: left; 
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 15px;
+    background-color: #f0f0f0;
+}
+.header-index .index-h-color .profile .avatar img
+{
+    border-radius: 15px;
+}
+.header-index .index-h-color .profile .name
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    float: left;
+
+    margin: 5px 10px;
+}
+.header-index .index-h-color .profile .name a
+{
+    font-size: 14px;
+
+    text-decoration: none;
+
+    opacity: .7;
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header-index .index-h-color .setting
+{
+    float: left;
+}
+.header-index .index-h-color .setting a
+{
+    display: inline-block; 
+
+    margin-top: 8px;
+
+    opacity: .8;
+}
+.header-index .index-h-color .add-sticker
+{
+    float: left;
+}
+.header-index .index-h-color .add-sticker a
+{
+    display: inline-block; 
+
+    margin: 8px 10px 0;
+
+    opacity: .8;
+}
+.header-index .index-h-color .logo
+{
+    width: 239px;
+    height: 78px;
+    margin: 60px auto 0;
+
+    background: url('https://habrastorage.org/files/93e/919/cf1/93e919cf137647b498b9d6679cf19c7e.png') no-repeat;
+}
+.header-index .index-h-color .navigation-left
+{
+    font-family: 'Journal Sans New', sans-serif; 
+
+    margin-top: 80px;
+}
+.header-index .index-h-color .navigation-left a
+{
+    font-size: 18px;
+
+    margin-right: 22px;
+
+    text-decoration: none;
+
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header-index .index-h-color .navigation-right
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    margin-top: 80px;
+
+    text-align: right;
+}
+.header-index .index-h-color .navigation-right a
+{
+    font-size: 18px;
+
+    margin-right: 22px;
+
+    text-decoration: none;
+
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header-index .index-h-color .cover-author
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    float: left; 
+
+    text-align: left;
+}
+.header-index .index-h-color .cover-author a
+{
+    font-size: 14px;
+
+    margin-top: 30px; 
+
+    text-decoration: none;
+
+    opacity: .2;
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.header-index .index-h-color .cover-author a:hover
+{
+    border-bottom: 1px solid white;
+}
+
+.item-cover
+{
+    height: 400px;
+}
+.item-cover .ic-color
+{
+    height: 100%; 
+
+    background-color: rgba(0, 0, 0, .5);
+}
+.item-cover .ic-color .profile
+{
+    margin-top: 15px;
+}
+.item-cover .ic-color .profile .avatar
+{
+    float: left; 
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 15px;
+    background-color: #f0f0f0;
+}
+.item-cover .ic-color .profile .avatar img
+{
+    border-radius: 15px;
+}
+.item-cover .ic-color .profile .name
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    float: left;
+
+    margin: 5px 10px;
+}
+.item-cover .ic-color .profile .name a
+{
+    font-size: 14px;
+
+    text-decoration: none;
+
+    opacity: .7;
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.item-cover .ic-color .logo-stick
+{
+    margin-top: 20px; 
+
+    text-align: center;
+}
+.item-cover .ic-color .logo-stick img
+{
+    width: 150px;
+}
+.item-cover .ic-color .brend-about .title
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-weight: 700;
+
+    text-align: center;
+}
+.item-cover .ic-color .brend-about .title a
+{
+    font-size: 22px;
+
+    text-decoration: none;
+
+    color: white;
+    border-bottom: 1px solid white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.item-cover .ic-color .brend-about .title a:hover
+{
+    border-bottom: none;
+}
+.item-cover .ic-color .brend-about .text
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    text-align: center;
+
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.item-cover .ic-color .item-info
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 22px;
+
+    text-align: center;
+
+    opacity: .4; 
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+.about
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+
+    padding: 50px 0 30px;
+
+    text-align: center;
+    letter-spacing: -.4px;
+
+    color: #b08d5c;
+    background-color: #282828;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.about .sales-info
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+    text-align: center;
+    letter-spacing: 0; 
+
+    opacity: .5;
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+.shop
+{
+    margin: 50px 0;
+}
+.shop .collections
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.shop .social-link
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 22px;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.shop .stick-list .stick-item
+{
+    position: relative; 
+
+    height: 450px;
+    margin-bottom: 40px;
+}
+.shop .stick-list .stick-item a
+{
+    position: absolute;
+    z-index: 30; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, .5);
+}
+.shop .stick-list .stick-item a:hover
+{
+    background-color: rgba(0, 0, 0, .6);
+}
+.shop .stick-list .stick-item .buy
+{
+    position: absolute;
+
+    width: 100%; 
+    height: 450px;
+}
+.shop .stick-list .stick-item .buy:hover
+{
+    background-color: rgba(0, 0, 0, .2);
+}
+.shop .stick-list .stick-item .buy .logo-item
+{
+    position: relative;
+    z-index: 31; 
+
+    width: 220px;
+    margin: 100px auto 0;
+
+    text-align: center;
+}
+.shop .stick-list .stick-item .buy .logo-item img
+{
+    width: 150px;
+}
+.shop .stick-list .stick-item .buy .read
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 22px;
+
+    position: relative;
+
+    margin-top: 100px; 
+
+    text-align: center;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.shop .stick-list .stick-item .buy .read a
+{
+    text-decoration: none; 
+
+    color: white;
+}
+.shop .stick-list .stick-item .meta-wrap
+{
+    position: absolute;
+    z-index: 200;
+    top: 8px;
+    left: 8px;
+
+    transition: opacity .1s; 
+
+    opacity: 0;
+}
+.shop .stick-list .stick-item .meta-wrap .meta-project-about
+{
+    color: white;
+}
+.shop .offer-coll
+{
+    font-family: 'Journal Sans New', sans-serif;
+}
+.shop .offer-coll a
+{
+    font-size: 12px;
+
+    text-decoration: none;
+
+    color: #a19999;
+    border-bottom: 1px solid #ccc;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.shop .offer-coll a:hover
+{
+    color: #b08d5c;
+    border-bottom: 1px solid #b08d5c;
+}
+.shop .browse-all
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-weight: 700;
+
+    text-align: center;
+}
+.shop .browse-all a
+{
+    font-size: 18px;
+
+    display: block; 
+
+    width: 100%;
+    padding: 18px 0;
+
+    text-decoration: none;
+    letter-spacing: .2px;
+
+    color: white;
+    background-color: #3499e0;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.shop .browse-all a:hover
+{
+    background-color: #1e7fc3;
+}
+.shop .browse-all a:active
+{
+    text-shadow: none;
+}
+
+.page
+{
+    padding: 50px 0 100px;
+}
+.page .title
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+
+    text-align: center;
+    letter-spacing: .3px;
+
+    color: #282828;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .content
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    color: #282828;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .del
+{
+    margin-top: 50px;
+}
+.page .del .convert
+{
+    text-align: center;
+}
+.page .faq h3
+{
+    cursor: pointer;
+    text-decoration: underline;
+
+    color: #b08d5c;
+    border: none;
+}
+.page .faq h3:focus
+{
+    border: none;
+}
+.page .faq .ui-selectable-helper
+{
+    border: none;
+}
+.page .partner
+{
+    margin-top: 20px;
+}
+.page .partner .form-help
+{
+    font-family: Georgia, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+
+    color: #939393;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form label
+{
+    margin-bottom: 15px;
+}
+.page .partner form input[type=text]
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    float: left;
+
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px; 
+    padding: 0 5px;
+
+    border: 1px solid #ddd;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form input[type=text]:hover
+{
+    border: 1px solid #ccc;
+}
+.page .partner form input[type=text]:focus
+{
+    border: 1px solid #d2b48c;
+}
+.page .partner form input[type=submit]
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    width: 102%;
+    padding: 13px 0 15px;
+
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .2px; 
+
+    color: white;
+    border: none;
+    background-color: #3499e0;
+    text-shadow: 0 3px 1px rgba(0, 0, 0, .1);
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form input[type=submit]:hover
+{
+    background-color: #1e7fc3;
+}
+.page .partner form input[type=submit]:active
+{
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+}
+.page .partner form input[type=checkbox]
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    float: left;
+
+    margin-bottom: 20px;
+
+    text-align: left;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form input[type=file]
+{
+    margin: 10px 0 15px;
+}
+.page .partner form textarea
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    float: left;
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 0 5px;
+
+    resize: none; 
+
+    border: 1px solid #ddd;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner form textarea:hover
+{
+    border: 1px solid #ccc;
+}
+.page .partner form textarea:focus
+{
+    border: 1px solid #d2b48c;
+}
+.page .partner .help
+{
+    font-family: 'Journal Sans New', sans-serif;
+    line-height: 16px; 
+
+    margin-top: 15px;
+}
+.page .partner .help a
+{
+    font-size: 14px;
+
+    color: #939393;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .partner .help a:first-letter
+{
+    color: red;
+}
+.page .m-u-new-sticker
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    text-align: center;
+}
+.page .m-u-new-sticker a
+{
+    font-size: 18px;
+
+    display: block;
+
+    padding: 86px 50px;
+
+    text-decoration: none;
+
+    color: #939393;
+    background-color: #f0f0f0;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .m-u-new-sticker a:hover
+{
+    background-color: #ddd;
+}
+.page .about-sticker .name
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-weight: 700;
+
+    margin-top: 5px; 
+
+    text-align: center;
+}
+.page .about-sticker .name a
+{
+    font-size: 18px;
+
+    text-decoration: none;
+
+    color: black;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .edit
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    text-align: center;
+}
+.page .edit a
+{
+    font-size: 16px;
+
+    text-decoration: none;
+
+    color: #2b296f;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .sticker-p-rigth .name
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .sticker-p-rigth .description
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    color: #939393;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .comments .comments-title
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.page .buy-box
+{
+    position: relative;
+}
+.page .buy-box a
+{
+    position: absolute;
+    z-index: 30; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.page .buy-box .buy-stick
+{
+    position: absolute;
+    top: 250px;
+
+    width: 300px;
+    height: 50px;
+
+    cursor: pointer;
+    text-align: center; 
+
+    background-color: rgba(0, 0, 0, .5);
+}
+.page .buy-box .buy-stick:hover
+{
+    background-color: rgba(0, 0, 0, .7);
+}
+.page .buy-box .buy-stick a
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 18px;
+
+    margin-top: 14px; 
+
+    text-decoration: none;
+
+    color: white;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+.footer .pay-list
+{
+    text-align: center;
+}
+.footer .pay-list a
+{
+    margin: 0 10px; 
+
+    text-decoration: none;
+}
+.footer .pay-list .visa img
+{
+    width: 50px;
+    margin-bottom: 5px;
+}
+.footer .pay-list .mastercard img
+{
+    width: 50px;
+}
+.footer .pay-list .liqpay img
+{
+    height: 27px;
+}
+.footer .pay-list .yamoney img
+{
+    width: 70px;
+}
+.footer .pay-list .webmoney img
+{
+    width: 100px;
+}
+
+.footer .navigation-footer
+{
+    font-family: 'Journal Sans New', sans-serif;
+
+    text-align: center;
+}
+.footer .navigation-footer a
+{
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    color: #9e9ea6;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+.footer .navigation-footer a:hover
+{
+    color: black;
+}
+
+.footer .copyright
+{
+    font-family: 'Journal Sans New', sans-serif;
+    font-size: 13px;
+
+    text-align: center;
+    letter-spacing: .3px;
+
+    color: #9e9ea6;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}

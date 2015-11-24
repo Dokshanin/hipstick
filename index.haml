@@ -1,0 +1,146 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+		%title HipStick
+		%link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/hipgrid.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/social.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../img/sprite.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+
+	%body{:style => 'margin: 0;'}
+		.header-index{:style => 'background: url(https://habrastorage.org/files/50f/b86/6cd/50fb866cddea444dafe14b5805dd3271.jpg) no-repeat; background-size: cover; background-position: center center;'}
+			.index-h-color
+				.container12
+					.row
+						.column12
+							/ .login
+							/ 	%a{:href => '/'} Авторизоваться
+							.profile
+								.avatar
+									%img{:src => 'https://pp.vk.me/c622526/v622526429/382f9/6iloo-YbSlI.jpg'}
+								.name
+									%a{:href => '/'} Александр Докшанин
+							.setting
+								%a{:href => '/', :class => 'icon-setting'}
+							.add-sticker
+								%a{:href => '/', :class => 'icon-new-sticker'}
+							.manager
+							.buy-my-sticker
+							.add-sticker
+					.row
+						.column4
+							.navigation-left
+								%a{:href => '/'} Главная
+								%a{:href => '/'} Подписка
+								%a{:href => '/'} Доставка
+						.column4
+							.logo
+						.column4
+							.navigation-right
+								%a{:href => '/'} Отзывы
+								%a{:href => '/'} Сотрудничество
+					/ .row
+					/ 	.column12
+					/ 		.cover-author
+					/ 			%a{:href => 'https://www.flickr.com/photos/graficamestiza/', :target => '_blank'} by Gráfica Mestiza Graffiti
+
+		.about
+			.container12
+				.row
+					.column12
+						%p Вы пришли в HipStick за стикерами известных проектов и дизайнеров, так что мы тянем резину, давайте уже приступим к выбору :)
+				.row
+					.sales-info
+						.column4
+							Художников на SB: 8
+						.column4
+							Коллекций на сайте: 8
+						.column4
+							Готовится к выпуску: 3
+
+		.shop
+			.container12
+				.row
+					.column8
+						.collections
+							Коллекции
+						.offer-coll
+							%a{:href => '/'} Предложить свою коллекцию
+					.column4
+						.social-link
+							.me-social	
+								Мы:
+							%ul.soc
+								%li
+									%a{:href => '#', :class => 'soc-facebook'}
+								%li
+									%a{:href => '#', :class => 'soc-vkontakte'}
+								%li
+									%a{:href => '#', :class => 'soc-twitter'}
+								%li
+									%a{:href => '#', :class => 'soc-instagram'}
+								%li
+									%a{:href => 'skype:a.dokshanin?chat', :class => 'soc-skype soc-icon-last'}
+				.row
+					.stick-list
+						.column12
+							.stick-item#item-cover{:style => 'background: url(https://habrastorage.org/files/46d/bd0/ce4/46dbd0ce411c465e8e17ad78cfe2bfbf.jpg) no-repeat; background-size: cover; background-position: center center;'}
+								%a{:href => '/'}
+								.buy
+									.logo-item
+										%img{:src => 'https://habrastorage.org/files/c97/32d/dfb/c9732ddfb08f4011b471219dc042df14.png'}
+									.read
+										%a{:href => '/'} Смотреть коллекцию
+						.column12
+							.stick-item{:style => 'background: url(https://habrastorage.org/files/533/5d1/79e/5335d179e4b548f3aa4da22d5892dd4a.jpg) no-repeat; background-size: cover; background-position: center center;'}
+								%a{:href => '/'}
+								.buy
+									.logo-item
+										%img{:src => 'https://habrastorage.org/files/c97/32d/dfb/c9732ddfb08f4011b471219dc042df14.png'}
+									.read
+										%a{:href => '/'} Смотреть коллекцию
+						.column12
+							/ https://habrastorage.org/files/3aa/bfb/3e0/3aabfb3e0408450d9f44c77d5fd4e4b6.jpg
+							.stick-item{:style => 'background: url(http://lamcdn.net/lookatme.ru/post_image-image/hD4pG7VVfAogHIToLHg-hg-wide.png) no-repeat; background-size: cover; background-position: center center;'}
+								%a{:href => '/'}
+								.buy
+									.logo-item
+										%img{:src => 'https://habrastorage.org/files/c97/32d/dfb/c9732ddfb08f4011b471219dc042df14.png'}
+									.read
+										%a{:href => '/'} Смотреть коллекцию
+				.row
+					.column12
+						.browse-all
+							%a{:href => '/'} Хочу больше
+		.footer
+			.container12
+				.row
+					.column12
+						.pay-list
+							%a{:href => '/', :class => 'visa', :target => '_blank'}
+								%img{:src => 'img/visa-hipstick.png'}
+							%a{:href => '/', :class => 'mastercard', :target => '_blank'}
+								%img{:src => 'img/mc-hipstick.png'}
+							%a{:href => '/', :class => 'liqpay', :target => '_blank'}
+								%img{:src => 'img/liqpay.png'}
+							%a{:href => '/', :class => 'yamoney', :target => '_blank'}
+								%img{:src => 'img/logo-yandex-money.png'}
+							%a{:href => '/', :class => 'webmoney', :target => '_blank'}
+								%img{:src => 'img/wmlogo_vector_blue.png'}
+				.row
+					.column12
+						.navigation-footer
+							%a{:href => '/'} Главная
+							%a{:href => '/'} Контакты
+							%a{:href => '/'} Пресс-кит
+							%a{:href => '/'} Faq
+							%a{:href => '/'} Партнерская программа
+				.row
+					.column12
+						.copyright
+							2015 г. HipStick Russia, Kaliningrad
+
+		%script{:type => "text/javascript", :src => "https://code.jquery.com/jquery-2.1.4.js"}
+		%script{:type => "text/javascript", :src => "../js/main.js"}
+
